@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #262626;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    border-top: 5px solid #d4af37
+}
+
+p {
+    text-align: center;
+    margin: 1px;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #d4af37
+}
+
+.campo {
+    margin-bottom: 1.2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    margin: 0.5px;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 4px;
+}
+
+button {
+    width: 50%;
+    padding: 15px;
+    margin-top: 3rem;
+    margin-left: 25%;
+    align-items: center;
+    background-color: #d4af37;
+    border: none;
+    color: #1a1a1a;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #b8962e;
+}
+
+#mensagem {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
