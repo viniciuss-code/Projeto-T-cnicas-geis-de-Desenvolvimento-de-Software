@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarberShop Schedule</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Criar Conta</h2>
+        <p>Cadastre-se para agendar seu horário.</p>
+
+        <form id="formCadastro">
+            <div class="campo">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" required placeholder="Digite seu nome">
+            </div>
+    
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" required placeholder="(73) 9 9999-9999">
+            </div>
+    
+            <div class="campo"></div>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" required placeholder="Crie uma senha">
+    
+            <button type="submit">Finalizar Cadastro</button>
+    
+        </form>
+
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="./js/auth.js"></script>
+
+
+</body>
+</html>
