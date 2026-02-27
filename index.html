@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarberShop</title>
 </head>
+
 <body>
-    <header>
-        <div>
-            
-        </div>
-    </header>
+    <div class="container">
+        <h2>Login</h2>
+        <form id="formLogin">
+            <div class="campo">
+                <label for="loginTelefone">Telefone: </label>
+                <input type="tel" id="loginTelefone" required>
+            </div>
+            <div class="campo">
+                <label for="loginSenha">Senha: </label>
+                <input type="password" id="loginSenha" required>
+            </div>
+
+            <button type="submit">Entrar</button>
+        </form>
+
+        <p id="mensagem"></p>
+
+        <a href="cadastro.html" style="color: #d4af37; display: block; text-align: center; margin-top: 10px;">Não tem
+            conta? Cadastre-se</a>
+    </div>
 </body>
+
 </html>
