@@ -34,8 +34,9 @@ if (formCadastro) {
         mensagem.computedStyleMap.color = "#2ecc71";
         
         setTimeout(() => {
-            form.reset();
+            formCadastro.reset();
             mensagem.innerText = "";
+            window.location.href = 'index.html';
         }, 2000);
     
     });
