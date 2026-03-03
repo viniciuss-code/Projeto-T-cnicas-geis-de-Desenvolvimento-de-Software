@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>BarberShop - Agendamento</title>
+</head>
+<body>
+    <div class="container">
+        <h2 id="boasVindas">Olá!</h2>
+        <p style="text-align: center; margin-bottom: 20px;">Escolha seu serviço e horário</p>
+
+        <form id="formAgendamento">
+            <div class="campo">
+                <label for="servico">Serviço</label>
+                <select id="servico" required style="width: 100%; padding:0.8rem;background: #333; color: white; border: 1px solid #444; border-radius: 4px;">
+                    <option value="">Selecione...</option>
+                    <option value="Corte Masculino"> Corte Masculino - R$ 30</option>
+                    <option value="Barba">Barba - R$ 20</option>
+                    <option value="Cabelo e barba">Cabelo e Barba - R$ 45</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+            </div>
+
+            <div class="campo">
+                <label for="hora">Horário</label>
+                <input type="time" id="hora" min="08:00" max="19:00" required>
+            </div>
+
+            <button type="submit">Confirmar Agendamento</button>
+
+            <p id="mensagem"></p>
+            <button onclick="logout()" style="margin-top: 10px; background-color: #444; color: white;">Sair</button>
+        </form>
+    </div>
+
+    <script src="./js/agenda.js"></script>
+</body>
+</html>
